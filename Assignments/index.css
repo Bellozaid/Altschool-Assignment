@@ -1,0 +1,103 @@
+body {
+  background-color: white;
+  font-size: large;
+  font-family: "asap", sans-serif;
+  line-height: 2;
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  display: inline;
+  width: 300px;
+  text-align: center;
+}
+h2 {
+  color: rgb(46, 43, 43);
+  padding: 10px 10px;
+  width: fit-content;
+  border-radius: 10px;
+  background-color: rgb(76, 144, 240);
+  font-size: large;
+}
+
+.topbar {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: rgb(76, 144, 240);
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+.topbar-navs {
+  list-style: none;
+}
+.nav-link {
+  display: inline;
+  margin: 70px;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(35, 31, 32);
+}
+
+a:hover {
+  background-color: rgb(184, 199, 220);
+  border-radius: 5px;
+}
+
+.mail-contact {
+  color: red;
+  font-weight: bold;
+}
+
+.fragment-container {
+  margin-left: 20px;
+}
+
+.fragment-identifier {
+  color: rgb(35, 115, 226);
+  font-weight: bold;
+  background-color: white;
+  border-radius: 5px;
+  padding: 8px;
+  font-size: medium;
+}
+
+.fragment-identifier:hover {
+  background-color: rgb(179, 184, 190);
+}
+
+.foot-container {
+  margin-left: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+}
+
+@media only screen and (min-width: 600px) {
+  main {
+    background-color: white;
+    margin-left: 50px;
+  }
+
+  h1 {
+    color: rgb(46, 43, 43);
+    display: block;
+    text-align: center;
+    font-size: larger;
+    padding: 40px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: rgb(76, 144, 240);
+  }
+}
